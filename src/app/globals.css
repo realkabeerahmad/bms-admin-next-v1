@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  border-radius: none;
+  box-shadow: none;
+}
+
+:root {
+  --back-ground-primary: #110022;
+  --back-ground-secondry: #ffffff;
+  --back-ground-secondry-transparent: #ffffff22;
+  --highlight-color: #ffff00;
+  --text-primary: #ffffff;
+  --text-secondry: #110022;
+  --border-radius: 5px;
+  --animation-time: 0.3s;
+}
+
+body {
+  background-color: var(--back-ground-primary);
+  color: var(--text-primary);
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  min-height: 100dvh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

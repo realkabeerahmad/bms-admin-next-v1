@@ -1,0 +1,27 @@
+/* navlink.module.css */
+
+.container,
+.containerActive {
+  transition: var(--animation-time) ease-in-out all;
+}
+
+/* Default state */
+.container {
+  color: var(--text-primary); /* Default text color */
+}
+
+/* Hover effect */
+.container:hover {
+  color: var(--background-secondary) !important;
+}
+
+/* Active state */
+.containerActive {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-secondary) !important;
+}
+
+/* Active state hover effect */
+.containerActive:hover {
+  color: var(--background-secondary) !important;
+}
