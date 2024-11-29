@@ -11,13 +11,14 @@ export const metadata = {
 };
 
 const configs = {
-  logo: "BMS ADMIN",
+  logo: "AKA",
   links: [
     { id: "1", route: "/", title: "Home" },
-    { id: "2", route: "/contact", title: "Contact" },
-    { id: "3", route: "/admin", title: "admin" },
-    { id: "4", route: "/login", title: "login" },
-    { id: "5", route: "/register", title: "register" },
+    { id: "2", route: "/about", title: "About" },
+    { id: "3", route: "/contact", title: "Contact" },
+    // { id: "4", route: "/admin", title: "admin" },
+    // { id: "5", route: "/login", title: "login" },
+    // { id: "6", route: "/register", title: "register" },
   ],
 };
 

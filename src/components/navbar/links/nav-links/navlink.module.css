@@ -11,17 +11,17 @@
 }
 
 /* Hover effect */
-.container:hover {
+.container:hover,
+.containerActive:hover {
   color: var(--highlight-text-color) !important;
+  transform: scale(1.05);
+  text-shadow: 0 0 20px var(--shadow-color);
 }
 
 /* Active state */
 .containerActive {
   /* background-color: var(--background-secondary) !important; */
   color: var(--highlight-text-color) !important;
-}
-
-/* Active state hover effect */
-.containerActive:hover {
-  color: var(--highlight-text-color) !important;
+  transform: scale(1.05);
+  text-shadow: 0 0 20px var(--shadow-color);
 }

@@ -10,30 +10,26 @@
 }
 
 :root {
-  /* Background Colors */
-  --background-primary: #1a1a2e; /* Deep Navy */
-  --background-secondary: #ffffff; /* Pure White */
-  --background-secondary-transparent: #ffffff1a; /* Semi-transparent white */
+  --background-primary: #ffffff;
+  --background-secondary: #1a1a2e;
+  --background-secondary-transparent: #ffffff;
 
-  /* Text Colors */
-  --text-primary: #f0f0f0; /* Light Grayish-White for better readability */
-  --text-secondary: #1a1a2e; /* Deep Navy to match primary background */
+  --text-primary: #000000;
+  --text-secondary: #fafafe;
 
-  --highlight-text-color: #ffd700; /* Gold - Professional and eye-catching */
-  --error-text-color: #d72638; /* Bright Red for clear error visibility */
-  --success-text-color: #4caf50; /* Green for success messages */
-  --link-color: #3498db; /* Soft Blue for links */
+  --highlight-text-color: #c689ff;
+  --shadow-color: #e8d4fa;
+  --error-text-color: #d72638;
+  --success-text-color: #4caf50;
+  --link-color: #3498db;
 
-  /* Border and Outline Colors */
-  --border-color: #555c83; /* Soft Dark Grayish Blue */
-  --hover-border-color: #ffd700; /* Gold accent for focus/hover state */
+  --border-color: #555c83;
+  --hover-border-color: #ffd700;
 
-  /* Button and Accent Backgrounds */
-  --button-primary-background: #4c5b9b; /* Muted Royal Blue */
-  --button-primary-hover: #3b4b7a; /* Darker shade on hover */
+  --button-primary-background: #4c5b9b;
+  --button-primary-hover: #3b4b7a;
 
-  /* Shadow and Effects */
-  --shadow-color: rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  --shadow-color: rgba(0, 0, 0, 0.2);
   --border-radius: 5px;
   --animation-time: 0.3s;
 }
@@ -61,7 +57,6 @@ a {
   justify-content: space-between;
 }
 
-/* Fade-in effect for container */
 @keyframes fadeIn {
   from {
     opacity: 0;

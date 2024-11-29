@@ -14,6 +14,12 @@
   font-size: 30px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--highlight-text-color) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo:hover {
+  text-shadow: 0 0 20px var(--shadow-color);
 }
 
 .links {

@@ -1,0 +1,36 @@
+.bubble {
+  position: absolute;
+  background-color: var(--highlight-text-color) !important;
+  border-radius: 50%;
+  opacity: 0.7;
+  animation: float 5s infinite ease-in-out;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.content {
+  font-weight: bold;
+  animation: rotate 10s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Floating animation */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-15px) translateX(15px);
+  }
+}
