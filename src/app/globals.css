@@ -10,19 +10,43 @@
 }
 
 :root {
-  --back-ground-primary: #110022;
-  --back-ground-secondry: #ffffff;
-  --back-ground-secondry-transparent: #ffffff22;
-  --highlight-color: #ffff00;
-  --text-primary: #ffffff;
-  --text-secondry: #110022;
+  /* Background Colors */
+  --background-primary: #1a1a2e; /* Deep Navy */
+  --background-secondary: #ffffff; /* Pure White */
+  --background-secondary-transparent: #ffffff1a; /* Semi-transparent white */
+
+  /* Text Colors */
+  --text-primary: #f0f0f0; /* Light Grayish-White for better readability */
+  --text-secondary: #1a1a2e; /* Deep Navy to match primary background */
+
+  --highlight-text-color: #ffd700; /* Gold - Professional and eye-catching */
+  --error-text-color: #d72638; /* Bright Red for clear error visibility */
+  --success-text-color: #4caf50; /* Green for success messages */
+  --link-color: #3498db; /* Soft Blue for links */
+
+  /* Border and Outline Colors */
+  --border-color: #555c83; /* Soft Dark Grayish Blue */
+  --hover-border-color: #ffd700; /* Gold accent for focus/hover state */
+
+  /* Button and Accent Backgrounds */
+  --button-primary-background: #4c5b9b; /* Muted Royal Blue */
+  --button-primary-hover: #3b4b7a; /* Darker shade on hover */
+
+  /* Shadow and Effects */
+  --shadow-color: rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
   --border-radius: 5px;
   --animation-time: 0.3s;
 }
 
 body {
-  background-color: var(--back-ground-primary);
+  background-color: var(--background-primary);
   color: var(--text-primary);
+}
+
+.application {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
@@ -35,4 +59,14 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+/* Fade-in effect for container */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

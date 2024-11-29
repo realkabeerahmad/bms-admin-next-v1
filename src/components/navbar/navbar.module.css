@@ -1,11 +1,13 @@
 .container {
-  background-color: var(--back-ground-secondry-transparent);
+  background-color: var(--background-secondary-transparent);
   backdrop-filter: blur(12px);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
   padding: 20px 50px;
+  position: sticky;
+  top: 0;
 }
 
 .logo {
@@ -17,6 +19,6 @@
 .links {
   display: flex;
   gap: 15px;
-  color: var(--highlight-color) !important;
+  color: var(--highlight-text-color) !important;
   align-items: center;
 }
